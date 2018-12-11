@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C3AC12C421BAEEDE005EC9AE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12C321BAEEDE005EC9AE /* main.swift */; };
+		C3AC12CF21BAFDD2005EC9AE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12CE21BAFDD2005EC9AE /* File.swift */; };
+		C3AC12D121BAFDF9005EC9AE /* ObjFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12D021BAFDF9005EC9AE /* ObjFile.swift */; };
+		C3AC12D321BAFE1D005EC9AE /* STLFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12D221BAFE1D005EC9AE /* STLFile.swift */; };
+		C3AC12D521BAFE3E005EC9AE /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12D421BAFE3E005EC9AE /* Reader.swift */; };
+		C3AC12D721BAFE4E005EC9AE /* ObjReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12D621BAFE4E005EC9AE /* ObjReader.swift */; };
+		C3AC12D921BAFE80005EC9AE /* Vector3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12D821BAFE80005EC9AE /* Vector3D.swift */; };
+		C3AC12DB21BAFEA3005EC9AE /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12DA21BAFEA3005EC9AE /* Converter.swift */; };
+		C3AC12DD21BAFEBC005EC9AE /* ObjToSTLConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12DC21BAFEBC005EC9AE /* ObjToSTLConverter.swift */; };
+		C3AC12DF21BAFECD005EC9AE /* Writer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12DE21BAFECD005EC9AE /* Writer.swift */; };
+		C3AC12E121BAFEE6005EC9AE /* STLWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12E021BAFEE6005EC9AE /* STLWriter.swift */; };
+		C3AC12E521BD08A2005EC9AE /* DataSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12E421BD08A2005EC9AE /* DataSerializable.swift */; };
+		C3AC12E821BD55D9005EC9AE /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12E721BD55D9005EC9AE /* Application.swift */; };
+		C3AC12EA21BD5EF3005EC9AE /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC12E921BD5EF3005EC9AE /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,19 @@
 /* Begin PBXFileReference section */
 		C3AC12C021BAEEDE005EC9AE /* 3DConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 3DConverter; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3AC12C321BAEEDE005EC9AE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C3AC12CE21BAFDD2005EC9AE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C3AC12D021BAFDF9005EC9AE /* ObjFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjFile.swift; sourceTree = "<group>"; };
+		C3AC12D221BAFE1D005EC9AE /* STLFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STLFile.swift; sourceTree = "<group>"; };
+		C3AC12D421BAFE3E005EC9AE /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
+		C3AC12D621BAFE4E005EC9AE /* ObjReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjReader.swift; sourceTree = "<group>"; };
+		C3AC12D821BAFE80005EC9AE /* Vector3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector3D.swift; sourceTree = "<group>"; };
+		C3AC12DA21BAFEA3005EC9AE /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		C3AC12DC21BAFEBC005EC9AE /* ObjToSTLConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjToSTLConverter.swift; sourceTree = "<group>"; };
+		C3AC12DE21BAFECD005EC9AE /* Writer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Writer.swift; sourceTree = "<group>"; };
+		C3AC12E021BAFEE6005EC9AE /* STLWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STLWriter.swift; sourceTree = "<group>"; };
+		C3AC12E421BD08A2005EC9AE /* DataSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSerializable.swift; sourceTree = "<group>"; };
+		C3AC12E721BD55D9005EC9AE /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		C3AC12E921BD5EF3005EC9AE /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +84,61 @@
 			isa = PBXGroup;
 			children = (
 				C3AC12C321BAEEDE005EC9AE /* main.swift */,
+				C3AC12E721BD55D9005EC9AE /* Application.swift */,
+				C3AC12E621BD3668005EC9AE /* Geometry */,
+				C3AC12CD21BAFDC3005EC9AE /* File */,
+				C3AC12CC21BAFDB6005EC9AE /* Converter */,
+				C3AC12CB21BAFDB1005EC9AE /* Writer */,
+				C3AC12CA21BAFDA9005EC9AE /* Reader */,
 			);
 			path = 3DConverter;
+			sourceTree = "<group>";
+		};
+		C3AC12CA21BAFDA9005EC9AE /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC12D421BAFE3E005EC9AE /* Reader.swift */,
+				C3AC12D621BAFE4E005EC9AE /* ObjReader.swift */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		C3AC12CB21BAFDB1005EC9AE /* Writer */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC12E421BD08A2005EC9AE /* DataSerializable.swift */,
+				C3AC12DE21BAFECD005EC9AE /* Writer.swift */,
+				C3AC12E021BAFEE6005EC9AE /* STLWriter.swift */,
+			);
+			path = Writer;
+			sourceTree = "<group>";
+		};
+		C3AC12CC21BAFDB6005EC9AE /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC12DA21BAFEA3005EC9AE /* Converter.swift */,
+				C3AC12DC21BAFEBC005EC9AE /* ObjToSTLConverter.swift */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		C3AC12CD21BAFDC3005EC9AE /* File */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC12CE21BAFDD2005EC9AE /* File.swift */,
+				C3AC12D021BAFDF9005EC9AE /* ObjFile.swift */,
+				C3AC12D221BAFE1D005EC9AE /* STLFile.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		C3AC12E621BD3668005EC9AE /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC12D821BAFE80005EC9AE /* Vector3D.swift */,
+				C3AC12E921BD5EF3005EC9AE /* Triangle.swift */,
+			);
+			path = Geometry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +199,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3AC12C421BAEEDE005EC9AE /* main.swift in Sources */,
+				C3AC12CF21BAFDD2005EC9AE /* File.swift in Sources */,
+				C3AC12DB21BAFEA3005EC9AE /* Converter.swift in Sources */,
+				C3AC12D721BAFE4E005EC9AE /* ObjReader.swift in Sources */,
+				C3AC12D521BAFE3E005EC9AE /* Reader.swift in Sources */,
+				C3AC12EA21BD5EF3005EC9AE /* Triangle.swift in Sources */,
+				C3AC12D121BAFDF9005EC9AE /* ObjFile.swift in Sources */,
+				C3AC12E521BD08A2005EC9AE /* DataSerializable.swift in Sources */,
+				C3AC12DF21BAFECD005EC9AE /* Writer.swift in Sources */,
+				C3AC12DD21BAFEBC005EC9AE /* ObjToSTLConverter.swift in Sources */,
+				C3AC12E121BAFEE6005EC9AE /* STLWriter.swift in Sources */,
+				C3AC12D321BAFE1D005EC9AE /* STLFile.swift in Sources */,
+				C3AC12E821BD55D9005EC9AE /* Application.swift in Sources */,
+				C3AC12D921BAFE80005EC9AE /* Vector3D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JG7258L5UY;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -255,7 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JG7258L5UY;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
